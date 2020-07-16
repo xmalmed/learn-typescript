@@ -2,16 +2,18 @@
   "name": "learn-typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.html"
+    "start": "lite-server"
   },
   "keywords": [],
   "author": "vk",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "open-cli": "^6.0.1"
+    "commonjs": "0.0.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
   }
 }
